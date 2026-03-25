@@ -1,5 +1,8 @@
-REGISTRY ?= yujiluigi
-IMAGE ?= migla-gmail-worker
+-include make.txt
+
+
+REGISTRY ?= your-docker-repo
+IMAGE ?= name-it-yours
 PLATFORM ?= linux/amd64
 
 # Prefer VERSION passed in by caller; fallback to git short SHA.
