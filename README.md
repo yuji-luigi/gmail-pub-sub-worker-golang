@@ -44,7 +44,7 @@ make docker_build_local VERSION=dev
 - `GCP_PROJECT_ID`
 - `GMAIL_PUBSUB_SUBSCRIPTION`
 - `GMAIL_DEAD_LETTER_TOPIC` (optional but recommended)
-- `PAYLOAD_INFO_BOT_ENDPOINT_URL` (Payload endpoint URL, typically `/api/internal/gmail/info-bot/notification`)
+- `PAYLOAD_INFO_BOT_ENDPOINT_URL` (can be any endpoint URL that handles DB transactions and other business logics)
 - `GMAIL_WORKER_SHARED_SECRET` (must match backend `GMAIL_WORKER_SHARED_SECRET`)
 - `HTTP_TIMEOUT_SECONDS` (default: `12`)
 - `MAX_HTTP_RETRIES` (default: `4`)
