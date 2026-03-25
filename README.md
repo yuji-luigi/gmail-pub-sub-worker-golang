@@ -10,7 +10,7 @@ Lightweight Go worker that listens to Gmail Pub/Sub notifications and forwards t
 - Sends `X-Pubsub-Message-Id` header for backend idempotency guard
 - Exposes `/healthz` for container platforms (default `PORT=8080`)
 
-## Image build (Hetzner VM + Watchtower flow)
+## Image build (VM + Watchtower flow)
 
 This repo follows your current pattern: build image locally, push to registry, let Watchtower pull `latest` on VM.
 
