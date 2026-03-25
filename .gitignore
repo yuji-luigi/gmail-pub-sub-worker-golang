@@ -1,0 +1,21 @@
+# Environment files (keep template committed)
+.env
+.env.local
+.env.*
+!.env.example
+
+# Build artifacts
+bin/
+dist/
+gmail-worker
+*.exe
+*.test
+
+# Test / coverage outputs
+coverage.out
+*.out
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
