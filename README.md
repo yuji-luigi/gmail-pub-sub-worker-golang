@@ -16,9 +16,9 @@ This repo follows your current pattern: build image locally, push to registry, l
 
 Default image settings are in `Makefile`:
 
-- `REGISTRY=yujiluigi`
-- `IMAGE=migla-gmail-worker`
-- `PLATFORM=linux/amd64`
+- `REGISTRY=your-docker-repo`
+- `IMAGE=name-it-yours`
+- `PLATFORM=linux/amd64` for mac M chip series
 - `VERSION=<git short sha>` (or pass explicitly)
 
 Build and push:
